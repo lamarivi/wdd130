@@ -14,7 +14,6 @@ body {
 
 h1, h2 {
     font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     color: var(--accent2-color);
