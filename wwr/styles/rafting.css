@@ -12,7 +12,7 @@ body {
     font-style: normal;
 }
 
-h1 h2 {
+h1, h2 {
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 300;
