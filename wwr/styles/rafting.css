@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #1A535C; 
+    --secondary-color: #D7FFF1; 
+    --accent1-color: #C4B1AE; 
+    --accent2-color: #7D4F50; 
+}
+
+body {
+    font-family: "Noticia Text", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hero h1 h2 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--accent2-color);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
