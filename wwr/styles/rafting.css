@@ -1,4 +1,3 @@
-
 :root {
     --primary-color: #1A535C; 
     --secondary-color: #D7FFF1; 
@@ -23,6 +22,15 @@ h1, h2 {
     display: block;
     width: 100%;
     height: auto;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+}
+
+.sociallinks a {
+    text-decoration: none;
 }
 
 @font-face {
