@@ -18,20 +18,112 @@ h1, h2 {
     color: var(--accent2-color);
 }
 
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background: lightblue;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hero h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: center;
+    background: #f9f9f9;
+}
+
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
 }
 
-footer {
-	position: fixed;
-	bottom: 0;
+.history {
+    padding: 20px;
+    background: #f9f9f9;
 }
 
-.sociallinks a {
-    text-decoration: none;
+.history h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.history-content img {
+    max-width: 200px;
+}
+
+.adventure h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adventure-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+.adventure-gallery img {
+    width: 130%; 
+    max-width: 150 px;
+}
+
+footer {
+	text-align: center;
+    position: relative;
+}
+
+footer p {
+    margin-bottom: 10px;
+  }
+
+.sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px; 
+  }
+  
+.sociallinks a {
+    display: inline-block;
+  }
+  
+.sociallinks img {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    transition: transform 0.3s ease, opacity 0.3s ease 
+  }
 
 @font-face {
     font-family: "Noticia text";
