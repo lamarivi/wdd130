@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: #1A535C; 
     --secondary-color: #D7FFF1; 
@@ -96,6 +97,7 @@ nav a {
     width: 130%; 
     max-width: 300px;
 }
+
 
 footer {
 	text-align: center;
