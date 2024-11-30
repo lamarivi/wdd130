@@ -15,14 +15,14 @@ h1, h2 {
     font-family: "Roboto Slab", serif;
     font-weight: 300;
     font-style: normal;
-    color: var(--accent2-color);
+    color: var(--primary-color);
 }
 
 header {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    background: lightblue;
+    background: aliceblue;
     padding: 10px 20px;
 }
 
@@ -34,7 +34,7 @@ nav {
 }
 
 nav a {
-    color: whitesmoke;
+    color: blueviolet;
     font-weight: bold;
     text-decoration: none;
     padding: 5px 10px;
