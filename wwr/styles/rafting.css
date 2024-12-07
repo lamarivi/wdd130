@@ -98,6 +98,58 @@ nav a {
     max-width: 300px;
 }
 
+.map {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.employee {
+    text-align: center;
+    margin: 10px;
+}
+
+.employee img {
+    width: 200px;
+    height: 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin: 0 5px 0 0; /* Aligns spacing around the radio button */
+    vertical-align: middle; /* Ensures it aligns with the label text */
+}
+
+
+button {
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
 
 footer {
 	text-align: center;
